@@ -1,0 +1,53 @@
+/* Заголовок */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Основний контент */
+main {
+    padding: 20px 0;
+    flex-grow: 1;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2.title {
+    color: #4CAF50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}

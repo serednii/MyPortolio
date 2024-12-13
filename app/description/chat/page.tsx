@@ -1,3 +1,5 @@
+import "../description.scss";
+
 export default function Chat() {
   return (
     <>
@@ -5,9 +7,9 @@ export default function Chat() {
         <h1>Můj Projekt Chat pro komunikaci</h1>
       </header>
 
-      <main>
+      <main className="text-white">
         <section id="features">
-          <h2>Možnosti</h2>
+          <h2 className="title">Možnosti</h2>
           <ul>
             <li>Popis možností.</li>
             <li>V tomto projektu můžete s přáteli chatovat v chatu.</li>
@@ -44,7 +46,7 @@ export default function Chat() {
         </section>
 
         <section id="features">
-          <h2>Další plány týkající se projektu</h2>
+          <h2 className="title">Další plány týkající se projektu</h2>
           <ul>
             <li>Přidat administrátorský panel</li>
             <li>Možnost přidat vlastní fotografii</li>
@@ -54,7 +56,7 @@ export default function Chat() {
         </section>
 
         <section id="technologies">
-          <h2>Použité Technologie</h2>
+          <h2 className="title">Použité Technologie</h2>
           <ul>
             <li>
               <strong>HTML5</strong>: tvorba struktury stránky
@@ -84,7 +86,7 @@ export default function Chat() {
         </section>
 
         <section id="technologies">
-          <h2>Для перевірки необхідно зарегіструватися</h2>
+          <h2 className="title">Для перевірки необхідно зарегіструватися</h2>
           <ul>
             <li>Přidat administrátorský panel</li>
             <li>

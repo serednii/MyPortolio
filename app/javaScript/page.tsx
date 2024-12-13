@@ -56,7 +56,7 @@ export default function JavaScript() {
             <h2 className="name-site">Shop </h2>
             <a
               className="link-github"
-              href="https://github.com/serednii/react-links-type-script/tree/MVC"
+              href="https://github.com/serednii/shopJS"
             >
               Github
             </a>
@@ -66,38 +66,43 @@ export default function JavaScript() {
             >
               Cypress
             </a>
-            <a className="link-github" href="./description/useful.html">
+            <a className="link-github" href="./description/tv">
               Description
             </a>
           </div>
           <div className="portfolio__overlay"></div>
         </ListItem>
-
         <ListItem>
           <a
             className="portfolio__link"
             target="_blank"
-            href="http://miroproject.smm.zzz.com.ua/old.html"
+            href="https://serednii.github.io/Converter_client/"
           >
             <Image
               width={270}
               height={400}
               loading="lazy"
-              src="/images/arduino.jpg"
+              src="/images/Converter.jpg"
               layout="responsive"
-              alt="arduino"
+              alt="Converter foto"
               className="portfolio__img"
             />
           </a>
           <div className="link__wrapper ">
-            <h2 className="name-site">Arduino control relay</h2>
+            <h2 className="name-site">Converter Foto</h2>
             <a
               className="link-github "
-              href="https://github.com/serednii/react-links-type-script/tree/MVC"
+              href="https://github.com/serednii/Converter_client"
             >
-              Github
+              Github Web Converter
             </a>
-            <a className="link-github" href="./description/tv.html">
+            <a
+              className="link-github "
+              href="https://github.com/serednii/Converter_server"
+            >
+              Github Server Converter
+            </a>
+            <a className="link-github" href="./description/converter">
               Description
             </a>
           </div>

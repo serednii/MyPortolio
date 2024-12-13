@@ -33,6 +33,11 @@ export default function Web() {
   return (
     <section className="portfolio__section">
       <h2 className="text-[white] text-center text-[2rem] mb-[1rem]">Web</h2>
+      <h3 className="text-[white] text-center text-[1rem] mb-[1rem]">
+        HTML, CSS, SCSS, JavaScript, jquery, slick-carousel, mixitup, rateyo,
+        PUG, Gulp, Webpack
+      </h3>
+
       <ul className="portfolio__items  gap-[20px]  ">
         <ListItem>
           <a
@@ -52,10 +57,7 @@ export default function Web() {
           </a>
           <div className="link__wrapper ">
             <h2 className="name-site">Wawe</h2>
-            <a
-              className="link-github "
-              href="https://github.com/serednii/react-links-type-script/tree/MVC"
-            >
+            <a className="link-github " href="https://github.com/serednii/wawe">
               Github
             </a>
             {/* <a
@@ -91,7 +93,7 @@ export default function Web() {
             <h2 className="name-site">Marketing</h2>
             <a
               className="link-github "
-              href="https://github.com/serednii/react-links-type-script/tree/MVC"
+              href="https://github.com/serednii/Marketing"
             >
               Github
             </a>
@@ -120,10 +122,7 @@ export default function Web() {
           </a>
           <div className="link__wrapper  ">
             <h2 className="name-site">Glee</h2>
-            <a
-              className="link-github "
-              href="https://github.com/serednii/react-links-type-script/tree/MVC"
-            >
+            <a className="link-github " href="https://github.com/serednii/Glee">
               Github
             </a>
             {/* <a className="link-github" href="./description/chat.html">
@@ -150,7 +149,7 @@ export default function Web() {
             />
           </a>
           <div className="link__wrapper  ">
-            <h2 className="name-site">Glee</h2>
+            <h2 className="name-site">Marcho</h2>
             <a
               className="link-github "
               href="https://github.com/serednii/Marcho"
@@ -184,7 +183,7 @@ export default function Web() {
             <h2 className="name-site"> Online Learn</h2>
             <a
               className="link-github "
-              href="https://github.com/serednii/Marcho"
+              href="https://github.com/serednii/online-learn"
             >
               Github
             </a>
@@ -214,7 +213,7 @@ export default function Web() {
             <h2 className="name-site">modern_art</h2>
             <a
               className="link-github"
-              href="https://github.com/serednii/Marcho"
+              href="https://github.com/serednii/modern-art"
             >
               Github
             </a>
@@ -242,10 +241,7 @@ export default function Web() {
           </a>
           <div className="link__wrapper">
             <h2 className="name-site">Hytte</h2>
-            <a
-              className="link-github"
-              href="https://github.com/serednii/Marcho"
-            >
+            <a className="link-github" href="https://github.com/serednii/hytte">
               Github
             </a>
             {/* <a className="link-github" href="./description/chat.html">
@@ -275,7 +271,7 @@ export default function Web() {
             <h2 className="name-site">Wekend</h2>
             <a
               className="link-github"
-              href="https://github.com/serednii/Marcho"
+              href="https://github.com/serednii/weekend"
             >
               Github
             </a>
